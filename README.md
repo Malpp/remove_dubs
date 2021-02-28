@@ -1,9 +1,9 @@
-# Remove Crunchyroll simulcast calender dubs
-Removes the dub titles from the Crunchyroll simulcast calender.
+# Remove Crunchyroll simulcast calendar dubs
+Removes the dub titles from the Crunchyroll simulcast calendar.
 
 ## Example
 ### Before
 ![before](images/before.png)
 
 ### After
-![before](images/before.png)
+![before](images/after.png)
