@@ -6,4 +6,4 @@ Removes the dub titles from the Crunchyroll simulcast calendar.
 ![before](images/before.png)
 
 ### After
-![before](images/after.png)
+![after](images/after.png)
