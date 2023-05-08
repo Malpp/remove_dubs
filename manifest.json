@@ -10,12 +10,12 @@
     "128": "icons/128.png"
   },
   "permissions": [
-    "https://www.crunchyroll.com/simulcastcalendar*"
+    "https://www.crunchyroll.com/pt-br/simulcastcalendar*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.crunchyroll.com/simulcastcalendar*"
+        "https://www.crunchyroll.com/pt-br/simulcastcalendar*"
       ],
       "js": [
         "src/remove_dubs.js",
