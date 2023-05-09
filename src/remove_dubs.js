@@ -3,7 +3,7 @@ chrome.extension.sendMessage({}, function (response) {
 		if (document.readyState === "complete") {
 			clearInterval(readyStateCheckInterval);
 			$("cite").each((i, cite) => {
-				if (cite.innerHTML.includes(" Dub)") || cite.innerHTML.includes("(Dub)")) {
+				if (cite.innerHTML.includes(" Dub)") || cite.innerHTML.includes("(Dub)") || cite.innerHTML.includes("(Dublagem ")) {
 					cite.parentNode.parentNode.parentNode.parentNode.parentNode.remove()
 				}
 			});
